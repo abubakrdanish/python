@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 venv
 .idea
+=======
+# Project exclude paths
+/venv/
+>>>>>>> dfbc9568d53905e9b64b7600f2f197ff90da0bd5
