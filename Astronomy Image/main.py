@@ -9,7 +9,7 @@ content = request.json()
 if request.status_code == 200:
     st.title(content["title"])
     st.image(content["hdurl"])
-    # Display the explanation in bold and on a new line
+    
     st.markdown("<br>", unsafe_allow_html=True)  # Add a line break
     st.markdown(f"<b>{content['explanation']}</b>", unsafe_allow_html=True)
 else:
